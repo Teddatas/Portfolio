@@ -1,0 +1,45 @@
+*, html, body {
+  margin:0;
+  padding:0;
+  background: #FEF5E6;
+}
+
+.div1 {
+  height: 100vh; 
+  width: 100vw;
+  background: #FEF5E6;
+}
+
+.div2 {
+  height: 10vh;
+  width: 4vh*16/9;
+  margin:5vh;
+  border-top: 40vh solid #001C19;
+  border-bottom: 40vh solid #001C19;
+  border-left: 43vw solid #001C19;
+  border-right: 43vw solid #001C19;
+
+  font-family: Roboto;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2.5vh;
+  color: #001C19;
+}
+
+.div3 {
+  padding-top:20vh;
+  background:transparent;
+
+  font-family: Roboto;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2.5vh;
+  color: #FEF5E6;
+  position:absolute;
+}
