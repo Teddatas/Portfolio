@@ -1,45 +1,109 @@
-*, html, body {
+html, body {
   margin:0;
   padding:0;
   background: #FEF5E6;
 }
 
-.div1 {
+.fond {
   height: 100vh; 
   width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   background: #FEF5E6;
 }
 
-.div2 {
-  height: 10vh;
-  width: 4vh*16/9;
-  margin:5vh;
-  border-top: 40vh solid #001C19;
-  border-bottom: 40vh solid #001C19;
-  border-left: 43vw solid #001C19;
-  border-right: 43vw solid #001C19;
+.rectangle {
+  height: 90vh; 
+  width: calc(100vw - 10vh);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction : column;
+  background: #001C19;
+  font-family: Roboto;
+  color: #FEF5E6;
+}
 
+.rectangle_centre {
+  padding: 10px;
+  background: #FEF5E6;
+  text-align: center;
   font-family: Roboto;
   font-weight: bold;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-size: 2.5vh;
   color: #001C19;
 }
 
-.div3 {
-  padding-top:20vh;
-  background:transparent;
+.zone_80 {
+  height: 80vh; 
+  width: 80vw;
+  display: flex;
+  align-items: center;  
+  justify-content: space-around;
+  flex-direction: column;
+  background: #FEF5E6;
+}
 
+.citation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto;
+  color: #001C19;
+}
+
+.titre {
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: left;
   font-family: Roboto;
   font-weight: bold;
+  color: #001C19;
+}
+
+.texte {
+  width: 80vw;
   display: flex;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
+  font-family: Roboto;
+  color: #001C19;
+}
+
+.tab_2col {
+  width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: left;
+  justify-content: space-around;
+  font-family: Roboto;
+  color: #001C19;
+}
+
+.cell {
+  display: flex;
+  flex-direction : row;
+}
+
+.cell_txt {
+  display: flex;
+  flex-direction : row;
+}
+
+.portfolio {
+  height: 80vh; 
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  text-align: center;
-  font-size: 2.5vh;
-  color: #FEF5E6;
-  position:absolute;
+  justify-content: space-around;
+}
+
+.tab_txt {
+  height: 80vh; 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
