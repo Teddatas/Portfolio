@@ -1,7 +1,7 @@
 html, body {
   margin:0;
   padding:0;
-  background: #FEF5E6;
+  background: white;
   font-family: Roboto;
   font-size: 18px;
 }
@@ -12,7 +12,7 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #FEF5E6;
+  background: white;
   position: fixed;
 }
 
@@ -29,7 +29,7 @@ html, body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: #FEF5E6;
+  background: white;
 }
 
 .rectangle {
@@ -42,12 +42,12 @@ html, body {
   background: #001C19;
   font-family: Roboto;
   font-size: 20px;
-  color: #FEF5E6;
+  color: white;
 }
 
 .rectangle_centre {
   padding: 20px;
-  background: #FEF5E6;
+  background: white;
   text-align: center;
   font-family: Roboto;
   font-weight: bold;
@@ -62,7 +62,7 @@ html, body {
   align-items: center;  
   justify-content: space-around;
   flex-direction: column;
-  background: #FEF5E6;
+  background: white;
 }
 
 .citation {
@@ -156,4 +156,20 @@ html, body {
   width: calc(100vw - 10vh);
   display: flex;
   background: orange;
+}
+
+.services-logo {
+  margin: 15px;
+  color: #69b3a2;
+  font-size: 45px;
+  padding: 30px;
+  border-radius: 50%;
+  border-color: black;
+  border-width: 5px;
+  border: solid;
+}
+
+.services-logo:hover {
+  color: white;
+  background-color: #69b3a2;
 }
