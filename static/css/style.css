@@ -8,6 +8,7 @@ html, body {
 
 .menu{
   width: 100vw;
+  padding: 0 5vh;
   height: 5vh;
   display: flex;
   align-items: center;
@@ -20,6 +21,15 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.navigation > a {
+  color: red;
+}
+
+.navigation > a:hover {
+  color: blue;
+  text-decoration: underline;
 }
 
 .fond {
@@ -65,15 +75,6 @@ html, body {
   background: white;
 }
 
-.citation {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-style: italic;
-  font-size: 25px;
-  color: #001C19;
-}
-
 .titre {
   width: 80vw;
   display: flex;
@@ -92,70 +93,6 @@ html, body {
   justify-content: left;
   font-family: Roboto;
   color: #001C19;
-}
-
-.tab_2col {
-  width: 70vw;
-  /*display: flex;
-  flex-wrap: wrap;
-  align-items: left;
-  justify-content: space-around;*/
-  color: #001C19;
-}
-
-.cell {
-  height: calc(100%/3);
-  width: 50%;
-  display: flex;
-  float: left;
-  flex-direction : row;
-}
-
-.portfolio1 {
-  height: 40vh;
-  width:80%; 
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.portfolio2 {
-  height: 40vh;
-  width: 80%; 
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.tab_txt {
-  height: 80vh; 
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
-.zone_test1 {
-  height: 70vh; 
-  width: calc(80vw - 10vh);
-  display: flex;
-  background: yellow;
-}
-
-.zone_test2 {
-  height: 70vh; 
-  width: calc(20vw - 10vh);
-  display: flex;
-  background: green;
-}
-
-.zone_test3 {
-  height: 20vh; 
-  width: calc(100vw - 10vh);
-  display: flex;
-  background: orange;
 }
 
 .services-logo {

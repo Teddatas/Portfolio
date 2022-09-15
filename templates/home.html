@@ -4,383 +4,420 @@
     <title>Teddy Thiebault</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/all.min.css">
 </head>
 
 <body>
     <main>
+        
+      <section>
         <div class="menu"> 
-            <div style="width:25%">
-                <img src="../img/Photo.png" width="100" height="100">
+          <div style="width:25%; font-size:2vh; display:flex;">
+            <p class="text-center mb-0">
+              TEDDY <br> THIEBAULT
+            </p>
+          </div>
+          <div class="navigation" style="display:flex; width:50%; justify-content: space-between;">
+              <a class="text-decoration-none" href="#services"> Services </a> 
+              <a class="text-decoration-none" href="#about_me"> A propos de moi </a>
+              <a class="text-decoration-none" href="#portfolio"> Portfolio </a>
+              <a class="text-decoration-none" href="#contact"> Contact </a>
+          </div> 
+          <div class="text-end" style="width:25%">
+              EN - Inverser luminosité
+          </div>       
+      </div>
+      <div class="fond">
+          <div class="rectangle">
+              <div class="rectangle_centre">
+                  <p class="mb-0">
+                      TEDDY 
+                      <br> 
+                      THIEBAULT
+                  </p>
+              </div>
+              <p>
+                  Data Analyst | Data Engineer
+              </p>
+          </div>
+      </div>
+      </section>
+
+
+      <section>
+        <div class="container"  style="height:100vh">
+            <div class="row">
+              <div class="col-lg-12 text-center" style="padding-bottom: 3%">
+                <p style="display:inline; font-size: 35px">Services</p>
+                <hr style="width: 100px; height: 1px; border:none;color:#333;background-color:#333;">
+                
+                  <h3 style="max-width: 500px;  line-height: 27px;" class="section-subheading text-muted">Let me help make
+                    better use of your data. My expertise can be used to clean, analyse, interpret and visualize your data.
+                  </h3>
+                
+              </div>
             </div>
-            <div class="navigation"; style="display:flex; width:50%; justify-content: space-between;">
-                <a href="#services"> Services </a> 
-                <a href="#about_me"> A propos de moi </a>
-                <a href="#portfolio"> Portfolio </a>
-                <a href="#contact"> Contact </a>
-            </div> 
-            <div class="text-end" style="width:25%">
-                EN - Inverser luminosité
-            </div>       
+      
+            <div class="row">
+              <!-- changer les i pour changer les icones, pas touchber à services-logo -->    
+              <div class="col-lg-3 text-center">
+                <a data-bs-toggle="modal" data-bs-target="#dataManagement"><i class="fa fa-wrench services-logo"></i></a>
+                <a data-bs-toggle="modal" data-bs-target="#dataManagement">
+                  <h4>Data Management</h4>
+                </a>
+                <p>Data harvesting, cleaning and reshaping. Development of automated workflows.</p>
+                <a data-bs-toggle="modal" data-bs-target="#dataManagement" style="font-size: 23px">+</a>
+              </div>
+      
+              <div class="col-lg-3 text-center">
+                <a data-bs-toggle="modal" data-bs-target="#dataMining"><i class="fa fa-search services-logo"></i></a>
+                <a data-bs-toggle="modal" data-bs-target="#dataMining">
+                  <h4>Data Mining</h4>
+                </a>
+                <p>Data exploration, application of statistical methods, reproducible data analysis.</p>
+                <a data-bs-toggle="modal" data-bs-target="#dataMining" style="font-size: 23px">+</a>
+              </div>
+      
+              <div class="col-lg-3 text-center">
+                <a data-bs-toggle="modal" data-bs-target="#dataViz"><i class="fa fa-bar-chart services-logo"></i></a>
+                <a data-bs-toggle="modal" data-bs-target="#dataViz">
+                  <h4>Dataviz</h4>
+                </a>
+                <p>Creation of static and interactive dataviz and dashboards, review of scientific figures.</p>
+                <a data-bs-toggle="modal" data-bs-target="#dataViz" style="font-size: 23px">+</a>
+              </div>
+      
+              <div class="col-lg-3 text-center">
+                <a href="teaching.html"><i class="fa fa-university services-logo"></i></a>
+                <a href="teaching.html">
+                  <h4>Teaching &amp; Training</h4>
+                </a>
+                <p>Short talks or multi-day courses on dataviz, R, ggplot2, data analytics and more. </p>
+                <a href="teaching.html" style="font-size: 23px">+</a>
+              </div>
+            </div>
         </div>
-        <div class="fond">
-            <div class="rectangle">
-                <div class="rectangle_centre">
-                    <p>
-                        TEDDY 
-                        <br> 
-                        THIEBAULT
-                    </p>
-                </div>
+      </section>
+
+      <section>
+        <div class="container" style="height:100vh">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-lg-4 about-left">
+              <img class="img-fluid" src="https://d33wubrfki0l68.cloudfront.net/a6c84c5c40a31bdf143b36d194fd3f1465b44784/d5131/img/profile.jpg" alt="">
+            </div>
+            <div class="col-lg-7 col-md-12 about-right">
+              <div class="main-title text-left">
+                <h1>About me</h1>
+              </div>
+              <div class="mb-50 wow fadeIn" data-wow-duration=".8s" style="font:black">
                 <p>
-                    Data Analyst | Data Engineer
+                  I am a data scientist and generative artist. Previously I went
+                  to National University of Singapore, EPFL and Duke University.
                 </p>
+                <p>
+                  Besides data science and data storytelling, I also like
+                  contemporary art and travelling.
+                </p>
+                <p>
+                  Having lived in China, Singapore, Switzerland and the United
+                  States, I understand English, Chinese and French.
+                </p>
+                <p>
+                  I have given talks and workshops such as Introduction To
+                  Visualization for Women Who Code and Drawing with Data Workshop
+                  at Airbnb APAC.
+                </p>
+              </div>
             </div>
+          </div>
         </div>
-        <div class="fond" id="services" style="background:#001C19;">
-            <div class="zone_80">
-                <div class="citation">
-                    <p>
-                        "Citation t'as capté"
-                    </p>
-                </div>
-                <div class="titre">
-                    <p>
-                        SERVICES
-                    </p>
-                </div>
-                <div class="texte">
-                    <p>
-                        En tant qu'analyste de données et data scientist freelance, je traduis les données en insights précieux et compréhensibles. Mon objectif est d'améliorer les résultats, de prendre les bonnes décisions et de réduire les coûts.
-                        <br>
-                        J'ai de l'expérience dans l'apprentissage automatique, les algorithmes supervisés et non supervisés et j'utilise des techniques de visualisation des données pour présenter les résultats. J'utilise SQL, R, Python, QlikView et Tableau pour mes projets de données.
-                    </p>
-                </div>
-                <div class="tab_2col">
-                    <div class="cell">
-                        <img src="../img/data.png" width="100" height="100">
-                        <p>
-                            <b> 
-                                Data analyse :
-                            </b>
-                            <br>
-                            Je suis spécialisé dans l'analyse des données. Les résultats, les tendances et les recommandations sont 
-                            clairement présentés dans des rapports ou des outils. (exemple)
-                            <br>
-                            <a href="projet1.html"> (example)</a>
-                        </p>
-                    </div>
-                    <div class="cell">
-                        <img src="../img/data.png" width="100" height="100">
-                        <p>
-                            <b> 
-                                Conseil:
-                            </b>
-                            <br>
-                            Avant et pendant les projets liés aux données, je donne des conseils sur l'avancement du projet et je 
-                            coache les analystes de données.
-                            <br>
-                            <a href="projet1.html"> (example)</a>
-                        </p>
-                    </div>
-                    <div class="cell">
-                        <img src="../img/data.png" width="100" height="100">
-                        <p>
-                            <b> 
-                                Data analytics :
-                            </b>
-                            <br>
-                            Tirez plus de valeur de vos données avec des modèles de prédiction et des techniques d'apprentissage automatique, 
-                            par exemple en prédisant le comportement ou en ciblant le bon client.
-                            <br>
-                            <a href="projet1.html"> (example)</a>
-                        </p>
-                    </div>
-                    <div class="cell">
-                        <img src="../img/data.png" width="100" height="100">
-                        <p>
-                            <b> 
-                                Data vizualisation :
-                            </b>
-                            <br>
-                            Présentez vos données de manière inspirante en utilisant une infographie plutôt qu'un texte. Je crée des 
-                            infographies interactives qui peuvent être utilisées en interne ou en public.
-                            <br>
-                            <a href="projet1.html"> (example)</a>
-                        </p>
-                    </div>
-                    <div class="cell">
-                        <img src="../img/data.png" width="100" height="100">
-                        <p>
-                            <b> 
-                                Tableaux de bord :
-                            </b>
-                            <br>
-                            Les tableaux de bord présentent les résultats les plus récents de manière interactive. En cliquant et en 
-                            creusant, vous examinerez vous-même les tendances et les modèles.
-                            <br>
-                            <a href="projet1.html"> (example)</a>
-                        </p>
-                    </div>
-                    <div class="cell">
-                        <img src="../img/data.png" width="100" height="100">
-                        <p>
-                            <b> 
-                                Data Engineer :
-                            </b>
-                            <br>
-                            Je coordoone vos différentes sources de données afin que les métriques soient récoltés.
-                            <br>
-                            <a href="projet1.html"> (example)</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="fond"  id="about_me">
-            <div class="zone_80" style="background: #001C19;color: #FEF5E6;">
-                <div class="titre" style="color: #FEF5E6;">
-                    <p>
-                        A PROPOS DE MOI :
-                    </p>
-                </div>
-                <div class="texte" style="color: #FEF5E6;">
-                    <p>
-                        Bonjour, je m'appelle Claudia et je travaille à distance en tant qu'analyste de données/scientifique freelance. Je suis titulaire d'une licence et d'un master en sciences (Business Analytics, VU University Amsterdam). 
-                        <br>
-                        Depuis toute petite, j'ai toujours aimé résoudre des énigmes. C'est ainsi que je considère les grands ensembles de données : pour moi, il s'agit d'un grand puzzle que je veux résoudre. Trouver des modèles que personne d'autre ne voit, voilà le défi que je dois relever.
-                        <br>
-                        Avant de me lancer en tant qu'indépendant, j'ai travaillé pendant plus de huit ans comme analyste de données dans le secteur du conseil et de la vente au détail. J'ai travaillé pour plus de 25 entreprises, ce qui me donne la capacité de traduire des questions complexes en informations compréhensibles.
-                        <br>
-                        Voulez-vous travailler ensemble ? N'hésitez pas à me contacter par e-mail.
-                    </p>
-                    <img src="../img/Photo.png">
-                </div>
-                <div style="background: #FEF5E6;">
-                    <a href="#contact"> Bouton contact </a>
-                </div>
-            </div>
-        </div>
-        <div class="fond"  id="portfolio">
-            <div class="zone_80">
-                <div class="titre">
-                    <p>
-                        PORTFOLIO :
-                    </p>
-                </div>
-                <div class="portfolio1">
-                    <a href="https://www.malt.fr/profile/teddythiebault"> <img src="../img/Photo.png" width="200" height="100"> </a>
-                    <img src="../img/Photo.png" width="200" height="100">
-                    <img src="../img/Photo.png" width="200" height="100">
-                </div>
-                <div class="portfolio2">
-                    <img src="../img/Photo.png" width="200" height="100">
-                    <img src="../img/Photo.png" width="200" height="100">   
-                </div>
-            </div>
-        </div>
-        <div class="fond" style="height: 60vh; background: #001C19;color: #FEF5E6;">
-            <div class="zone_80" style="height: 40vh; background: #001C19;">
-                <div class="titre" style="background:#001C19;color:#FEF5E6">
-                    <p>
-                        CONTACT
-                    </p>
-                </div>
-                <div class="texte" style="background:#001C19;color:#FEF5E6">
-                    <p>
-                        teddy.thiebault@gmail.com
-                        <br>
-                        En tant qu'expert en données, je sais exactement comment vous pouvez utiliser les données de manière optimale dans votre entreprise. Sur la base de vos objectifs, nous établirons un plan pour atteindre la bonne perspicacité.
-                    </p>
-                </div>
-                <div class="tab_txt">
-                    <p>
-                        **Je suis disponible pour:**
-    
-                        - l'analyse de données
-                        - Analyse de données (modèles de prédiction, segmentations)
-                        - Visualisation de données (infographies, tableaux de bord)
-                        - Conseil et accompagnement de projets de données
-                        - Formation et ateliers (débuter avec l'analyse de données, comment répondre à des questions avec des données, pratique de SQL, pratique de R)
-                        - Présentations (storytelling, comment présenter les données, comment les autres entreprises utilisent-elles les données ?)
-                    </p>
-                    <p>
-                        **Taux**
-                        - Projets d'analyse de données, d'analyse de données et de visualisation : 800 € par jour.
-                        - Présentations, formations et ateliers à partir de 550 € (4 heures maximum)
-                        - Formation d'une journée complète à partir de 950 €.
-    
-                        Les tarifs sont hors TVA.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="fond" id="contact" style="height: 20vh">
-            <p>
-                LINKEDIN
-            </p>
-        </div>
-        <div class="fond" style="height: 20vh; background: #001C19;color: #FEF5E6;">
-            <p>
-                MENTIONS LEGALES
-            </p>
-        </div>
+      </section>
 
-        <section>
-            <div class="container">
-                <div class="row">
-                  <div class="col-lg-12 text-center" style="padding-bottom: 3%">
-                    <p style="display:inline; font-size: 35px">Services</p>
-                    <hr style="width: 100px; height: 1px; border:none;color:#333;background-color:#333;">
-                    <center>
-                      <h3 style="max-width: 500px;  line-height: 27px;" class="section-subheading text-muted">Let me help make
-                        better use of your data. My expertise can be used to clean, analyse, interpret and visualize your data.
-                      </h3>
-                    </center>
-                  </div>
-                </div>
-          
-                <div class="row">
-          
-                  <div class="col-lg-3 text-center">
-                    <a data-toggle="modal" href="#dataManagement"><i class="fa fa-wrench services-logo"></i></a>
-                    <a data-toggle="modal" href="#dataManagement">
-                      <h4>Data Management</h4>
-                    </a>
-                    <p>Data harvesting, cleaning and reshaping. Development of automated workflows.</p>
-                    <a data-toggle="modal" href="#dataManagement" style="font-size: 23px">+</a>
-                  </div>
-          
-                  <div class="col-lg-3 text-center">
-                    <a data-toggle="modal" href="#dataMining"><i class="fa fa-search services-logo"></i></a>
-                    <a data-toggle="modal" href="#dataMining">
-                      <h4>Data Mining</h4>
-                    </a>
-                    <p>Data exploration, application of statistical methods, reproducible data analysis.</p>
-                    <a data-toggle="modal" href="#dataMining" style="font-size: 23px">+</a>
-                  </div>
-          
-                  <div class="col-lg-3 text-center">
-                    <a data-toggle="modal" href="#dataViz"><i class="fa fa-bar-chart services-logo"></i></a>
-                    <a data-toggle="modal" href="#dataViz">
-                      <h4>Dataviz</h4>
-                    </a>
-                    <p>Creation of static and interactive dataviz and dashboards, review of scientific figures.</p>
-                    <a data-toggle="modal" href="#dataViz" style="font-size: 23px">+</a>
-                  </div>
-          
-                  <div class="col-lg-3 text-center">
-                    <a href="teaching.html"><i class="fa fa-university services-logo"></i></a>
-                    <a href="teaching.html">
-                      <h4>Teaching &amp; Training</h4>
-                    </a>
-                    <p>Short talks or multi-day courses on dataviz, R, ggplot2, data analytics and more. </p>
-                    <a href="teaching.html" style="font-size: 23px">+</a>
-                  </div>
-                </div>
+      <!--  -->
+      <section>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col col-lg-10 d-flex justify-content-center" style="background-color: red;">
+              <span class="filter-menu" data-filter="all">TOUS</span>
+              <span class="filter-menu" data-filter="moi">SECTION 1</span>
+              <span class="filter-menu" data-filter="toi">SECTION 2</span>
+              <span class="filter-menu" data-filter="nous">SECTION 3</span>
             </div>
-        </section>
+          </div>
 
-        <section>
-            <div class="container">
-                <div class="row justify-content-center">
-                  <div class="col-lg-10">
-                    <div class="projects_fillter">
-                      <ul class="filter list">
-                        <li class="active" data-filter="*">All Categories</li>
-                        <li data-filter=".viz" class="">Data Visualization</li>
-                        <li data-filter=".ccode" class="">Creative Coding</li>
-                        <li data-filter=".ds" class="">Data Science</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-        
-                <div class="projects_inner row grid" style="position: relative; height: 3242.84px;">
-                  <div class="grid-sizer col-sm-6 col-md-3 col-lg-3"></div>
-        
-                  <div class="col-lg-3 col-sm-6 col-sm-12 viz grid-item" style="position: absolute; left: 0%; top: 0px;">
-                    <div class="projects_item">
-                      <img class="img-fluid w-100" src="https://d33wubrfki0l68.cloudfront.net/f74ce8edbfdd9dedafcd456b32a8ff0a68ab73b2/8ea4c/img/gallery/dataviz.png" alt="">
-                      <div class="projects_text">
-                        <a href="https://medium.com/@yanhann10/the-state-of-data-visualization-6de999f9e386">
-                          <h4>The State of Data Visualization</h4>
-                        </a>
-                        <p>(Made in R, 2017)</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-3 col-sm-6 col-sm-12 viz grid-item" style="position: absolute; left: 25%; top: 0px;">
-                    <div class="projects_item">
-                      <img class="img-fluid w-100" src="https://d33wubrfki0l68.cloudfront.net/45c1754ead32007602e4fdb3c0e80bfa6063bd22/7fc8c/img/gallery/drinks.png" alt="">
-                      <div class="projects_text">
-                        <a href="https://medium.com/towards-data-science/preferences-of-drinks-around-the-world-36f37de0394">
-                          <h4>Countries by Drinking Habits</h4>
-                        </a>
-                        <p>(Made in R, 2017)</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-3 col-sm-6 work grid-item" style="position: absolute; left: 50%; top: 0px;">
-                    <div class="projects_item">
-                      <img class="img-fluid w-100" src="https://d33wubrfki0l68.cloudfront.net/c672c0178ae55928d2b063a6b918d7e305e1eaee/1e459/img/gallery/happiness2-min.png" alt="">
-                      <div class="projects_text">
-                        <a href="https://medium.com/@yanhann10/in-pursuit-of-happiness-part-ii-e471a54f294e">
-                          <h4>Happiness by Regions</h4>
-                        </a>
-                        <p>(Made in Tableau, 2017)</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-3 col-sm-6 ds grid-item" style="position: absolute; left: 75%; top: 3027px;">
-                    <div class="projects_item">
-                      <img class="img-fluid w-100" src="https://d33wubrfki0l68.cloudfront.net/ccb79e4373b41d2697fa1ba63198963408527fa4/5a248/img/gallery/creativecode/spiral2.webp" alt="">
-                      <div class="projects_text">
-                        <a href="/ds-projects">
-                          <h4>View more projects</h4>
-                        </a>
-                        <p></p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>        
-        </section>
-
-        <section>
-            <div class="container">
-                <div class="row align-items-center justify-content-between">
-                  <div class="col-lg-4 about-left">
-                    <img class="img-fluid" src="https://d33wubrfki0l68.cloudfront.net/a6c84c5c40a31bdf143b36d194fd3f1465b44784/d5131/img/profile.jpg" alt="">
-                  </div>
-                  <div class="col-lg-7 col-md-12 about-right">
-                    <div class="main-title text-left">
-                      <h1>about me</h1>
-                    </div>
-                    <div class="mb-50 wow fadeIn" data-wow-duration=".8s" style="font:black">
-                      <p>
-                        I am a data scientist and generative artist. Previously I went
-                        to National University of Singapore, EPFL and Duke University.
-                      </p>
-                      <p>
-                        Besides data science and data storytelling, I also like
-                        contemporary art and travelling.
-                      </p>
-                      <p>
-                        Having lived in China, Singapore, Switzerland and the United
-                        States, I understand English, Chinese and French.
-                      </p>
-                      <p>
-                        I have given talks and workshops such as Introduction To
-                        Visualization for Women Who Code and Drawing with Data Workshop
-                        at Airbnb APAC.
-                      </p>
-                    </div>
-                  </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 mb-4 filter moi">
+              <img src="http://fakeimg.pl/365x365/" class="img-fluid">
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 mb-4 filter moi">
+              <img src="http://fakeimg.pl/365x365/" class="img-fluid">
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 mb-4 filter nous">
+              <img src="http://fakeimg.pl/365x365/" class="img-fluid">
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 mb-4 filter toi">
+              <img src="http://fakeimg.pl/365x365/" class="img-fluid">
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 mb-4 filter nous">
+              <img src="http://fakeimg.pl/365x365/" class="img-fluid">
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 mb-4 filter moi">
+              <img src="http://fakeimg.pl/365x365/" class="img-fluid">
+            </div>
+          </div>
+  
+          <div class="projects_inner row grid" style="position: relative; height: 100vh">
+            <div class="grid-sizer col-sm-6 col-md-3 col-lg-3"></div>
+  
+            <div class="col-lg-3 col-sm-6 col-sm-12 viz grid-item" style="position: absolute; left: 0%; top: 0px;">
+              <div class="projects_item">
+                <img class="img-fluid w-100" src="https://d33wubrfki0l68.cloudfront.net/f74ce8edbfdd9dedafcd456b32a8ff0a68ab73b2/8ea4c/img/gallery/dataviz.png" alt="">
+                <div class="projects_text">
+                  <a href="https://medium.com/@yanhann10/the-state-of-data-visualization-6de999f9e386">
+                    <h4>The State of Data Visualization</h4>
+                  </a>
+                  <p>(Made in R, 2017)</p>
                 </div>
               </div>
-        </section>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-sm-12 viz grid-item" style="position: absolute; left: 25%; top: 0px;">
+              <div class="projects_item">
+                <img class="img-fluid w-100" src="https://d33wubrfki0l68.cloudfront.net/45c1754ead32007602e4fdb3c0e80bfa6063bd22/7fc8c/img/gallery/drinks.png" alt="">
+                <div class="projects_text">
+                  <a href="https://medium.com/towards-data-science/preferences-of-drinks-around-the-world-36f37de0394">
+                    <h4>Countries by Drinking Habits</h4>
+                  </a>
+                  <p>(Made in R, 2017)</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 work grid-item" style="position: absolute; left: 50%; top: 0px;">
+              <div class="projects_item">
+                <img class="img-fluid w-100" src="https://d33wubrfki0l68.cloudfront.net/c672c0178ae55928d2b063a6b918d7e305e1eaee/1e459/img/gallery/happiness2-min.png" alt="">
+                <div class="projects_text">
+                  <a href="https://medium.com/@yanhann10/in-pursuit-of-happiness-part-ii-e471a54f294e">
+                    <h4>Happiness by Regions</h4>
+                  </a>
+                  <p>(Made in Tableau, 2017)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="fond" style="background: #001C19;color: #FEF5E6;">
+          <div class="zone_80" style="background: #001C19;">
+              <div class="titre" style="background:#001C19;color:#FEF5E6">
+                  <p>
+                      CONTACT
+                  </p>
+              </div>
+              <div class="texte" style="background:#001C19;color:#FEF5E6">
+                  <p>
+                      <a href="mailto:teddy.thiebault@gmail.com">teddy.thiebault@gmail.com</a>
+                      <br>
+                      En tant qu'expert en données, je sais exactement comment vous pouvez utiliser les données de manière optimale dans votre entreprise. Sur la base de vos objectifs, nous établirons un plan pour atteindre la bonne perspicacité.
+                  </p>
+              </div>
+              <div class="tab_txt">
+                  <p>
+                      **Je suis disponible pour:**
+  
+                      - l'analyse de données
+                      - Analyse de données (modèles de prédiction, segmentations)
+                      - Visualisation de données (infographies, tableaux de bord)
+                      - Conseil et accompagnement de projets de données
+                      - Formation et ateliers (débuter avec l'analyse de données, comment répondre à des questions avec des données, pratique de SQL, pratique de R)
+                      - Présentations (storytelling, comment présenter les données, comment les autres entreprises utilisent-elles les données ?)
+                  </p>
+                  <p>
+                      **Taux**
+                      - Projets d'analyse de données, d'analyse de données et de visualisation : 800 € par jour.
+                      - Présentations, formations et ateliers à partir de 550 € (4 heures maximum)
+                      - Formation d'une journée complète à partir de 950 €.
+  
+                      Les tarifs sont hors TVA.
+                  </p>
+              </div>
+          </div>
+      </div>
+      <div class="fond" id="contact" style="height: 20vh">
+          <p>
+              LINKEDIN
+          </p>
+      </div>
+      <div class="fond" style="height: 20vh; background: #001C19;color: #FEF5E6;">
+          <p>
+              MENTIONS LEGALES
+          </p>
+      </div>
+      </section>
 
     </main>
-</body>
 
+    <div class="modal fade" id="dataManagement" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <i class="fa fa-wrench services-logo"></i>
+            <h4>Data Management</h4>
+            <p style="max-width: 600px">A data project always start with a data enginering step. You need to
+              harvest data and store it in an adequate format to be able to use it.</p>
+            <div style="text-align: left">
+              <h6>I can help you to..</h6>
+              <hr>
+              <ul>
+                <li><u>Harvest</u> data from different sources like <code>APIs</code>, <code>SQL</code>
+                  databases or messy <code>Excel</code> spreadsheets.</li>
+                <li><u>Reformat</u> and reshape data to make further analyses easier.</li>
+                <li><u>Clean</u> datasets removing outliers and abberant data.</li>
+                <li>Create reproducible data preparation <u>workflows</u></li>
+                <li><u>Automatize</u> the creation of data related reports</li>
+              </ul>
+              <br>
+              <h6>Example:</h6>
+              <hr>
+              <ul>
+                <li>I collected tweets containing the <code>#surf</code> for 9 months to study how surfers use
+                  social media. I used the <code>twitter API</code> and made the data collection automatic
+                  thanks to a personnal <code>webserver</code> and a custom <code>R script</code>.</li>
+                <li>I created a <code>dashboard</code> for a company called Terres Inovia. It is directly
+                  plugged on their <code>SQL database</code> and allows to access its information in real time.
+                </li>
+              </ul>
+              <br>
+              <h6>Contact me</h6>
+              <hr>
+              <span>Tell me more about your project at <a
+                  href="mailto:yan.holtz.data@gmail.com">yan.holtz.data@gmail.com</a> to see if we can work
+                together.</span>
+              <div style="margin-top: 15px;">
+                <a class="btn btn-secondary btn text-uppercase js-scroll-trigger"
+                  href="https://github.com/holtzy/data_to_viz">Github</a>
+                <a class="btn btn-secondary btn text-uppercase js-scroll-trigger"
+                  href="https://twitter.com/R_Graph_Gallery">Twitter</a>
+                <a class="btn btn-secondary btn text-uppercase js-scroll-trigger"
+                  href="mailto:yan.holtz.data@gmail.com">Mail</a>
+              </div>
+              <br><br><br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="dataMining" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <i class="fa fa-search services-logo"></i>
+            <h4>Data Mining</h4>
+            <p style="max-width: 600px">Crunch the data to get answer to your question. Give insight to the
+              information.</p>
+            <div style="text-align: left">
+              <h6>I can help you for</h6>
+              <hr>
+              <ul>
+                <li><u>Exploratory analysis</u> of a dataset.</li>
+                <li>Creation of clean and reproducible <u>reports</u> using <code>R Markdown</code>.</li>
+                <li>Application of <u>statistical methods</u> on your dataset.</li>
+                <li>Creation of <u>custom scripts</u> for analysing your data automatically</li>
+              </ul>
+              <br>
+              <h6>Example:</h6>
+              <hr>
+              <ul>
+                <li>I'm the author of several <a href="https://github.com/holtzy/Publication">scientific
+                    publications</a> where I was in charge to explore and understand complex dataset in order to
+                  answer scientific questions.</li>
+                <li>I recovered information about crypto currency prices on different exchanges and explored the
+                  data looking for <a target="_blank" href="https://holtzy.github.io/Crypto-Arbitrage/">arbitrage
+                    opportunities</a>.</li>
+              </ul>
+              <br>
+              <h6>Contact me</h6>
+              <hr>
+              <span>Tell me more about your project at <a
+                  href="mailto:yan.holtz.data@gmail.com">yan.holtz.data@gmail.com</a> to see if we can work
+                together.</span>
+              <div style="margin-top: 15px;">
+                <a class="btn btn-secondary btn text-uppercase js-scroll-trigger"
+                  href="https://github.com/holtzy/data_to_viz">Github</a>
+                <a class="btn btn-secondary btn text-uppercase js-scroll-trigger"
+                  href="https://twitter.com/R_Graph_Gallery">Twitter</a>
+                <a class="btn btn-secondary btn text-uppercase js-scroll-trigger"
+                  href="mailto:yan.holtz.data@gmail.com">Mail</a>
+              </div>
+              <br><br><br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="dataViz" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <i class="fa fa-bar-chart services-logo"></i>
+            <h4>Data Visualization</h4>
+            <p style="max-width: 600px">I'm a recognized expert in the field of dataviz. I've created several <a
+                href="#website" target="_blank">websites</a> and given <a target="_blank"
+                href="https://github.com/holtzy/Talk">talks</a> on this topic.</p>
+            <div style="text-align: left">
+              <h6>I can help you with:</h6>
+              <hr>
+              <ul>
+                <li>Creation and review of graphs for <u>scientific publication</u>.</li>
+                <li>Development of <u>data application</u> using <code>R</code> and <code>Shiny</code>.</li>
+                <li>Creation of custom <u>data visualization for the web</u> using <code>d3.js</code>.</li>
+                <li><u>Dashboard</u> creation for real time data analysis.</li>
+                <li>Visualization of <u>geospatial</u> data.</li>
+              </ul>
+              <br>
+              <h6>Example:</h6>
+              <hr>
+              <ul>
+                <li>A <a href="https://holtzyan.shinyapps.io/the-nb-como-project/">website</a> describing
+                  research results on mental disorders comorbidity.</li>
+                <li><a href="https://www.data-to-viz.com">Data to viz</a>: a decision tree leading to the most
+                  appropriate chart type for your data.</li>
+                <li>See many more examples in the <a href="#portofolio" target="_blank">portfolio</a> section of
+                  this website.</li>
+              </ul>
+              <br>
+              <h6>Contact me</h6>
+              <hr>
+              <span>Tell me more about your project at <a>
+                  href="mailto:yan.holtz.data@gmail.com">yan.holtz.data@gmail.com</a> to see if we can work
+                together.</span>
+              <div style="margin-top: 15px;">
+                <a class="btn btn-secondary btn text-uppercase js-scroll-trigger"
+                  href="https://github.com/holtzy/data_to_viz">Github</a>
+                <a class="btn btn-secondary btn text-uppercase js-scroll-trigger"
+                  href="https://twitter.com/R_Graph_Gallery">Twitter</a>
+                <a class="btn btn-secondary btn text-uppercase js-scroll-trigger"
+                  href="mailto:yan.holtz.data@gmail.com">Mail</a>
+              </div>
+              <br><br><br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="../static/js/script.js" type="text/javascript"></script>
+  </body>
 </html>
