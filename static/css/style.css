@@ -1,7 +1,7 @@
 html, body {
   margin:0;
   padding:0;
-  background: white;
+  background: #FEF5E6;
   font-family: Roboto;
   font-size: 18px;
 }
@@ -13,7 +13,7 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: white;
+  background: #FEF5E6;
   position: fixed;
 }
 
@@ -24,11 +24,12 @@ html, body {
 }
 
 .navigation > a {
-  color: red;
+  color: #001C19;
 }
 
 .navigation > a:hover {
-  color: blue;
+  color: #001C19;
+  font-weight: bolder;
   text-decoration: underline;
 }
 
@@ -39,7 +40,7 @@ html, body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: white;
+  background: #FEF5E6;
 }
 
 .rectangle {
@@ -52,17 +53,27 @@ html, body {
   background: #001C19;
   font-family: Roboto;
   font-size: 20px;
-  color: white;
+  color: #FEF5E6;
 }
 
 .rectangle_centre {
   padding: 20px;
-  background: white;
+  background: #FEF5E6;
   text-align: center;
   font-family: Roboto;
   font-weight: bold;
   font-size: 25px;
   color: #001C19;
+}
+
+.circle {
+  background: #FEF5E6;
+  border-radius: 50%;
+  width: 40vh;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .zone_80 {
@@ -72,7 +83,7 @@ html, body {
   align-items: center;  
   justify-content: space-around;
   flex-direction: column;
-  background: white;
+  background: #FEF5E6;
 }
 
 .titre {
@@ -107,6 +118,6 @@ html, body {
 }
 
 .services-logo:hover {
-  color: white;
+  color: #FEF5E6;
   background-color: #69b3a2;
 }
