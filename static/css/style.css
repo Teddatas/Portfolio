@@ -4,6 +4,11 @@ html, body {
   background: #FEF5E6;
   font-family: Roboto;
   font-size: 18px;
+  scroll-snap-type: y mandatory;
+}
+
+main > section {
+  scroll-snap-align: start;
 }
 
 .menu{
@@ -23,18 +28,24 @@ html, body {
   justify-content: center;
 }
 
-.navigation > a {
+.navigation > a, .logo {
   color: #001C19;
 }
 
-.navigation > a:hover {
+.navigation > a:hover, .logo:hover {
   color: #001C19;
   font-weight: bolder;
   text-decoration: underline;
 }
 
+/* Changer le surlignage menu */
+.link-active {
+  text-decoration: underline !important;
+  font-weight: bold;
+}
+
 .fond {
-  height: 100vh; 
+  min-height: 100vh; 
   width: 100vw;
   display: flex;
   align-items: center;
@@ -44,7 +55,7 @@ html, body {
 }
 
 .rectangle {
-  height: 90vh; 
+  min-height: 90vh; 
   width: calc(100vw - 10vh);
   display: flex;
   align-items: center;

@@ -11,4 +11,17 @@ $(document).ready(function(){
         }
     });
 
+    $(window).scroll(function () {
+        var st = $(this).scrollTop() + 10;
+
+        $('section').each(function() {
+            var id = $(this).attr('id');
+            if (st > $(this).offset().top && st <= $(this).offset().top + $(this).height() ) {                    
+                $('.navigation a[href="#' + id + '"]').addClass('link-active');
+            } else {
+                $('.navigation a[href="#' + id + '"]').removeClass('link-active');   
+            }   
+        });
+    });
+
 });
